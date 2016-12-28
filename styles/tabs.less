@@ -1,18 +1,18 @@
-@tab-radius: 3px;
+@tab-radius: 8px;
 @modified-icon-width: 8px;
-@tab-skew: 30deg;
+@tab-skew: 3deg;
 @tab-top-padding: 5px;
 @tab-bottom-border-height: 5px;
 @tab-border: 1px solid @tab-border-color;
-@tab-bar-bottom-border-color: #111;
-@tab-max-width: 160px;
+@tab-bar-bottom-border-color: #000;
+@tab-max-width: 210px;
 
 .tab-bar {
   height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
   background: @tab-bar-background-color;
   box-shadow: inset 0 -8px 8px -4px rgba(0,0,0, .15);
-  padding: 0 10px 0 25px;
-  overflow-x: auto;
+  padding: 1px 0 0 25px;
+  overflow-x: scroll;
   overflow-y: hidden;
 
   &::-webkit-scrollbar {
@@ -36,6 +36,7 @@
     position: relative;
     top: @tab-top-padding;
     max-width: @tab-max-width;
+    min-width: @tab-max-width / 3;
     height: @tab-height;
     line-height: @tab-height;
     padding: 0;
@@ -102,7 +103,8 @@
       z-index: 1;
       margin-top: -@tab-top-padding;
       padding-top: @tab-top-padding;
-      padding-right: 10px;
+      padding-right: 5px;
+      font-size: @font-size - 1px;
     }
   }
 

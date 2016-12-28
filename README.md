@@ -1,9 +1,14 @@
-# Atom Dark UI theme
+# Atom Dark Plus UI theme
 
-A dark UI theme for Atom.
+A dark UI theme for Atom forked from Atom Dark UI theme.
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_UI Themes_ drop-down menu.
+## Changes from atom dark UI theme
+- Bigger, wider and squared tabs
+- Tree view and tab bar share the same background colour
+- Scrollable tabs -  The tabs can be scrolled horizontally if there are too many of them
 
-![](https://f.cloud.github.com/assets/671378/2265086/c6897dba-9e7b-11e3-945d-551cac610717.png)
+## Things to do
+- Configure tab width, height and other properties from theme preferences
+
+## Screenshot with Base 16 Tomorrow Night syntax theme
+![](http://imgur.com/a/PLFKA)
