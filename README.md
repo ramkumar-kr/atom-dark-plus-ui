@@ -11,4 +11,4 @@ A dark UI theme for Atom forked from Atom Dark UI theme.
 - Configure tab width, height and other properties from theme preferences
 
 ## Screenshot with Base 16 Tomorrow Night syntax theme
-![](http://imgur.com/a/PLFKA)
+![](http://i.imgur.com/sKFiXta.png)
